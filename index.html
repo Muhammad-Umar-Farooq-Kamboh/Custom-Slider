@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img class="images" src="img/auto-2179220_1920.webp" alt="" />
+      <img class="images" src="img/car-1376190_1920.webp" alt="" />
+      <img class="images" src="img/vintage-1950s-887272_1920.webp" alt="" />
+      <img class="images" src="img/vintage-1950s-887273_1920.webp" alt="" />
+      <button class="btn" id="prev" onclick="slide(-1)">&larr;</button>
+      <button class="btn" id="nxt" onclick="slide(1)">&rarr;</button>
+      <div class="radio-btns">
+        <div class="radio" onclick="move(0)"></div>
+        <div class="radio" onclick="move(1)"></div>
+        <div class="radio" onclick="move(2)"></div>
+        <div class="radio" onclick="move(3)"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
